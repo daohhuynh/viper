@@ -2,6 +2,8 @@
 
 **High-throughput out-of-core quantitative pipeline for terabyte-scale time-series processing.**
 
+VIPER was developed on lab hardware under data-access restrictions; this repository is a cleared post-hoc upload of my work, shared with my mentor's permission.
+
 VIPER is an offline quantitative batch-processing engine engineered to ingest, register, and extract signal traces from massive optical datasets. Built to operate under strict memory constraints, the system bypasses standard RAM limits by orchestrating out-of-core memory mapping, GPU-accelerated tensor dispatch, and regularized linear algebra. While not a low-latency execution system, VIPER is architected identically to an overnight quantitative research pipeline, prioritizing deterministic memory footprints, zero-copy data ingress, and numerical stability when handling highly correlated, near-singular real-world data.
 
 ## Critical Path and Data Flow
